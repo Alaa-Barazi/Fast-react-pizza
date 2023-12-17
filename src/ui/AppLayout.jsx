@@ -5,16 +5,17 @@ import Loader from "./Loader";
 function AppLayout() {
   const navigate = useNavigation();
   const isLoading = navigate.state === "loading";
- // console.log(navigate);
+  // console.log(navigate);
   return (
-    <div className="layout">
+    <div className="grid h-screen grid-rows-[auto_1fr_auto] ">
       {isLoading && <Loader />}
       <Header />
-
-      <main>
-        <h1>Content</h1>
-        <Outlet />
-      </main>
+      <div className="overflow-scroll">
+        <main className="mx-auto max-w-3xl ">
+          
+          <Outlet />
+        </main>
+      </div>
 
       <CartOverview />
     </div>
