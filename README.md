@@ -23,3 +23,9 @@ Simple way of allowing customers to order pizzas and get them delivered to their
 <h3>•Tailwind </h3>
 <h3>•Redux </h3>
 </p>
+
+
+
+<h2> The Site:</h2>
+
+<h3> https://fast-react-pizza-company.netlify.app </h3>
