@@ -26,6 +26,6 @@ Simple way of allowing customers to order pizzas and get them delivered to their
 
 
 
-<h2> The Site:</h2>
+<h2> THE SITE::</h2>
 
 <h3> https://fast-react-pizza-company.netlify.app </h3>
